@@ -11,5 +11,6 @@ header.header-primary
     ul
       - data.settings.navigation.nav_items.each do | nav_item |
         li
-          = nav_link nav_item.label, nav_item.path, a href="http://slim-lang.com" title='Slim Homepage' Goto the Slim homepage
+          = nav_link nav_item.label, nav_item.path
+          a href="http://slim-lang.com" title='Slim Homepage' Goto the Slim homepage
 
