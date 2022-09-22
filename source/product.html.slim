@@ -4,7 +4,7 @@
     .meta
       h1 = product.title
       .price
-        - currency = data.settings.units.currency || '€' 
+        - currency = data.settings.units.currency || '₹' 
         span = currency + product.price.to_s 
 
     .body
