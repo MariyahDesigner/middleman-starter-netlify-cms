@@ -8,9 +8,9 @@ header.header-primary
     = image_tag 'nav-close.svg', class: 'close'
 
   nav.navigation
-    a href="http://slim-lang.com" title='Slim Homepage' Goto the Slim homepage
+    
     ul
-      - data.settings.navigation.nav_items.each do | nav_item | 
+      - data.settings.navigation.nav_items.each do | nav_item | a href="http://slim-lang.com" title='Slim Homepage' Goto the Slim homepage |
         li
           = nav_link nav_item.label, nav_item.path
           
