@@ -4,6 +4,9 @@
   width: calc(100vw - (100vw - 100%));
   height: calc(100vh - 80px);
 
+  img{
+    width: 100%;
+  }
   
   .image{
     position: absolute;
