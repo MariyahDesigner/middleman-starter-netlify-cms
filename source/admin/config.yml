@@ -84,3 +84,4 @@ collections:
             widget: select
             options: ['kg', ' st', ' lb']
             default: 'kg'
+            required: false
