@@ -12,6 +12,7 @@
   }
 
   .news-item {
+    width: 50%;
     @extend %column;
     @extend %col-xs-12;
     margin-bottom: 60px;
