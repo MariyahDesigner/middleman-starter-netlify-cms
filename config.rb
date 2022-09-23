@@ -85,6 +85,6 @@ configure :build do
 
   #Use asset hashes to use for caching
   #activate :asset_hash
-  activate :favicon_maker
+  
   
 end
