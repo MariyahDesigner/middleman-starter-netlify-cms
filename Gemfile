@@ -4,6 +4,8 @@ gem 'middleman'
 gem 'middleman-autoprefixer'
 gem 'middleman-blog'
 gem 'middleman-livereload'
+
+gem 'rmagick'
 gem "middleman-favicon-maker", "~> 4.1"
 
 gem 'webrick'
