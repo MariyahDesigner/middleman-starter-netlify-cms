@@ -5,7 +5,7 @@ gem 'middleman-autoprefixer'
 gem 'middleman-blog'
 gem 'middleman-livereload'
 
-
+gem "favicon_maker"
 gem "middleman-favicon-maker", "~> 4.1"
 
 gem 'webrick'
