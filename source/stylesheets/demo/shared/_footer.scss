@@ -20,6 +20,10 @@ footer {
     padding: 30px 15px 60px;
   }
 
+   div a {
+     color: #fff;
+  }
+  
   .newsletter {
     @extend %column;
     @extend %col-md-6;
